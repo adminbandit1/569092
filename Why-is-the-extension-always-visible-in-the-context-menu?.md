@@ -15,7 +15,7 @@ The difference can be tested on sites such as Instagram.
 https://www.instagram.com/p/BeJmG7SnE8V/
 
 
-This is the reason why the extension must be present in the context menu at all times. While the existence of an image is evident to the user before right-clicking, the extension must parse the page to detect images. It cannot know in advance if there will be an image located at the clicked area, unless web pages are preemtively parsed, even when the extension is not used. That would be an expensive and wasteful approach.
+This is the reason why the extension must be present in the context menu at all times. While the existence of an image is evident to the user before right-clicking, the extension must parse the page to detect images. It cannot know in advance if there will be an image located at the clicked area, unless web pages are preemptively parsed, even when the extension is not used. That would be an expensive and wasteful approach.
 
 
 The extension can be hidden entirely from the context menu by visiting the options page, the same features are also available by using the toolbar popup instead.
