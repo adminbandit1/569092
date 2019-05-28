@@ -5,12 +5,12 @@ This guide has been tested on Ubuntu 18.04, with Bash.
 The following commands can be used to prepare a new Ubuntu instance
 for building the extension.
 
-Open the console, install Git, Node.js, nvm and Yarn.
+Open the console, install Git, nvm and Yarn.
 
 ```shell
-sudo apt-get update && sudo apt-get install -y build-essential git nodejs
+sudo apt-get update && sudo apt-get install -y build-essential git
 
-wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
+wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
 source ~/.bashrc
 
 wget -qO- https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
@@ -21,7 +21,7 @@ sudo apt-get update && sudo apt-get install -y yarn
 Check the installed build dependencies.
 
 ```shell
-git --version && node --version && nvm --version && yarn --version
+git --version && nvm --version && yarn --version
 ```
 
 ## Building the Extension
