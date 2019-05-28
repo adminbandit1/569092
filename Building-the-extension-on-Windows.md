@@ -14,7 +14,7 @@ Git, Node.js and Yarn with Chocolatey.
 ```shell
 choco install git -y --version 2.21.0
 choco install nodejs-lts -y --version 10.15.3
-choco install yarn --ignore-dependencies -y --version 1.15.2
+choco install yarn --ignore-dependencies -y --version 1.16.0
 ```
 
 Open the console as the current user, check the installed build dependencies.
