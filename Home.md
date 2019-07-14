@@ -6,3 +6,7 @@
 ### FAQ
 
 - [Why is the extension always visible in the context menu?](https://github.com/dessant/search-by-image/wiki/Why-is-the-extension-always-visible-in-the-context-menu%3F)
+
+### Links
+
+- [Privacy policy](https://github.com/dessant/search-by-image/wiki/Privacy-policy)
