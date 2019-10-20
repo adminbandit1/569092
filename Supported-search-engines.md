@@ -4,6 +4,7 @@
 - [Baidu Image Search](https://image.baidu.com)
 - [Sogou Images](https://pic.sogou.com)
 - [Qihoo 360 Images](https://st.so.com)
+- [Mail.ru Image Search](https://go.mail.ru/search_images)
 - [Getty Images](https://www.gettyimages.com)
 - [iStock](https://www.istockphoto.com)
 - [Shutterstock](https://www.shutterstock.com)
