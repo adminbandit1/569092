@@ -9,5 +9,5 @@
 
 ### Links
 
-- [Supported search engines](https://github.com/dessant/search-by-image/wiki/Supported-search-engines)
+- [Search engines](https://github.com/dessant/search-by-image/wiki/Search-engines)
 - [Privacy policy](https://github.com/dessant/search-by-image/wiki/Privacy-policy)
