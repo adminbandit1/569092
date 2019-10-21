@@ -1,3 +1,7 @@
+Search by Image supports a diverse set of reverse image search engines that can be toggled and reordered from the extension's options.
+
+#### Search engines
+
 - [Google Images](https://www.google.com/imghp)
 - [Bing Images](https://www.bing.com/images/)
 - [Yandex.Images](https://yandex.com/images/)
