@@ -12,9 +12,9 @@ Open the console as an administrator, install
 Git, Node.js and Yarn with Chocolatey.
 
 ```shell
-choco install git -y --version 2.21.0
-choco install nodejs-lts -y --version 10.15.3
-choco install yarn --ignore-dependencies -y --version 1.16.0
+choco install git -y --version 2.24.1.2
+choco install nodejs-lts -y --version 12.13.1
+choco install yarn --ignore-dependencies -y --version 1.21.1
 ```
 
 Open the console as the current user, check the installed build dependencies.
