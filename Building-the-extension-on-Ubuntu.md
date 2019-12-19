@@ -10,7 +10,7 @@ Open the console, install Git, nvm and Yarn.
 ```shell
 sudo apt-get update && sudo apt-get install -y build-essential git
 
-wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
+wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.1/install.sh | bash
 source ~/.bashrc
 
 wget -qO- https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
