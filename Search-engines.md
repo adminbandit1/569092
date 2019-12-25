@@ -1,4 +1,4 @@
-Search by Image supports a diverse set of reverse image search engines that can be toggled and reordered from the extension's options.
+Search by Image supports a diverse set of reverse image search engines, which can be toggled and reordered from the extension's options.
 
 #### Search engines
 
@@ -14,6 +14,9 @@ Search by Image supports a diverse set of reverse image search engines that can 
 - [Shutterstock](https://www.shutterstock.com)
 - [Adobe Stock](https://stock.adobe.com)
 - [Depositphotos](https://depositphotos.com)
+- [Dreamstime](https://www.dreamstime.com)
+- [Alamy](https://www.alamy.com)
+- [123RF](https://www.123rf.com)
 - [Jingdong](https://www.jd.com)
 - [Taobao](https://www.taobao.com)
 - [Alibaba China](https://www.1688.com)
