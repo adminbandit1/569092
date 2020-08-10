@@ -1,4 +1,4 @@
-This guide has been tested on Windows 10 64-bit, version 1803,
+This guide has been tested on Windows 10 Pro 64-bit, version 1903,
 with Command Prompt and PowerShell.
 
 ## Preparing the Environment
@@ -12,9 +12,9 @@ Open the console as an administrator, install
 Git, Node.js and Yarn with Chocolatey.
 
 ```shell
-choco install git -y --version 2.24.1.2
-choco install nodejs-lts -y --version 12.13.1
-choco install yarn --ignore-dependencies -y --version 1.21.1
+choco install git -y --version 2.28.0
+choco install nodejs-lts -y --version 12.18.3
+choco install yarn -y --version 1.22.4
 ```
 
 Open the console as the current user, check the installed build dependencies.
@@ -39,13 +39,17 @@ cd search-by-image
 # install dependencies
 yarn
 
-# build for all supported browsers
-yarn build:prod:zip:all
+# build for Chrome
+yarn build:prod:zip:chrome
 
-# build for a specific browser
-# yarn build:prod:zip:chrome
-# yarn build:prod:zip:firefox
-# yarn build:prod:zip:opera
+# build for Edge
+yarn build:prod:zip:edge
+
+# build for Firefox
+yarn build:prod:zip:firefox
+
+# build for Opera
+yarn build:prod:zip:opera
 ```
 
 The extension will be in the `artifacts\<browser>` folder.
