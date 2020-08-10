@@ -1,4 +1,4 @@
-This guide has been tested on Ubuntu 18.04, with Bash.
+This guide has been tested on Ubuntu 20.04, with Bash.
 
 ## Preparing the Environment
 
@@ -10,7 +10,7 @@ Open the console, install Git, nvm and Yarn.
 ```shell
 sudo apt-get update && sudo apt-get install -y build-essential git
 
-wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.1/install.sh | bash
+wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
 source ~/.bashrc
 
 wget -qO- https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
@@ -42,13 +42,17 @@ nvm install
 # install dependencies
 yarn
 
-# build for all supported browsers
-yarn build:prod:zip:all
+# build for Chrome
+yarn build:prod:zip:chrome
 
-# build for a specific browser
-# yarn build:prod:zip:chrome
-# yarn build:prod:zip:firefox
-# yarn build:prod:zip:opera
+# build for Edge
+yarn build:prod:zip:edge
+
+# build for Firefox
+yarn build:prod:zip:firefox
+
+# build for Opera
+yarn build:prod:zip:opera
 ```
 
 The extension will be in the `artifacts\<browser>` folder.
