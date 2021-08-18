@@ -1,3 +1,5 @@
+This project does not collect your personal data.
+
 The extension sends the image you select during a search to the requested third-party service.
 
 The following third-party services are supported:
