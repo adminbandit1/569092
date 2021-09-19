@@ -1,8 +1,6 @@
-This project does not collect your personal data.
+The developer does not collect any personal data from this extension.
 
-The extension sends the image you select during a search to the requested third-party service.
-
-The following third-party services are supported:
+The extension sends the image you select during a search to the requested third-party service. The following third-party services are supported:
 
 - [Google Images](https://www.google.com/imghp)
 - [Bing Images](https://www.bing.com/images/)
@@ -22,11 +20,6 @@ The following third-party services are supported:
 - [Stocksy United](https://www.stocksy.com)
 - [Pond5](https://www.pond5.com)
 - [PIXTA](https://www.pixtastock.com)
-- [Wayfair](https://www.wayfair.com)
-- [Birch Lane](https://www.birchlane.com)
-- [AllModern](https://www.allmodern.com)
-- [Joss & Main](https://www.jossandmain.com)
-- [Perigold](https://www.perigold.com)
 - [IKEA](https://www.ikea.com)
 - [eSearch plus](https://euipo.europa.eu/eSearch/)
 - [TMview](https://www.tmdn.org/tmview/beta/#/tmview)
@@ -36,16 +29,14 @@ The following third-party services are supported:
 - [Australian Design Search](https://search.ipaustralia.gov.au/designs/search/advanced)
 - [IPONZ Trade Mark Check](https://app.iponz.govt.nz/app/TradeMarkCheck)
 - [Graphic Image Park](https://www.graphic-image.inpit.go.jp/)
-- [Jingdong](https://www.jd.com)
-- [Taobao](https://www.taobao.com)
-- [Alibaba China](https://www.1688.com)
 - [Pinterest](https://www.pinterest.com)
 - [TinEye Reverse Image Search](https://www.tineye.com)
 - [PimEyes](https://pimeyes.com/en/)
 - [Karma Decay](http://karmadecay.com)
+- [Reddit Repost Sleuth](https://www.repostsleuth.com)
 - [trace.moe (WhatAnime)](https://trace.moe)
 - [SauceNAO](https://saucenao.com)
-- [Iqdb](https://iqdb.org)
+- [IQDB](https://iqdb.org)
 - [Ascii2d](https://ascii2d.net)
 
-The maintainers of this project are not affiliated with the supported third-party services. Consult the privacy policies of the respective services to learn more about how your data is handled.
+The project is not affiliated with the supported third-party services. Consult the privacy policies of the respective services to learn more about how your data is handled.
