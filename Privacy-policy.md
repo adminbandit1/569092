@@ -1,6 +1,6 @@
 The developer does not collect any personal data from this extension.
 
-The extension sends the image you select during a search to the requested third-party service. The following third-party services are supported:
+The extension sends the image you select during a search to the requested third-party service. The following services are supported:
 
 - [Google Images](https://www.google.com/imghp)
 - [Bing Images](https://www.bing.com/images/)
