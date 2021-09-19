@@ -5,23 +5,19 @@ This guide has been tested on Ubuntu 20.04, with Bash.
 The following commands can be used to prepare a new Ubuntu instance
 for building the extension.
 
-Open the console, install Git, nvm and Yarn.
+Open the console, install Git and nvm.
 
 ```shell
 sudo apt-get update && sudo apt-get install -y build-essential git
 
-wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
+wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
 source ~/.bashrc
-
-wget -qO- https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
-echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
-sudo apt-get update && sudo apt-get install -y yarn
 ```
 
 Check the installed build dependencies.
 
 ```shell
-git --version && nvm --version && yarn --version
+git --version && nvm --version
 ```
 
 ## Building the Extension
@@ -40,19 +36,19 @@ cd search-by-image
 nvm install
 
 # install dependencies
-yarn
+npm install
 
 # build for Chrome
-yarn build:prod:zip:chrome
+npm run build:prod:zip:chrome
 
 # build for Edge
-yarn build:prod:zip:edge
+npm run build:prod:zip:edge
 
 # build for Firefox
-yarn build:prod:zip:firefox
+npm run build:prod:zip:firefox
 
 # build for Opera
-yarn build:prod:zip:opera
+npm run build:prod:zip:opera
 ```
 
 The extension will be in the `artifacts\<browser>` folder.
