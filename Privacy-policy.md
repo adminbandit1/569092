@@ -20,6 +20,7 @@ The extension sends the image you select during a search to the requested third-
 - [Stocksy United](https://www.stocksy.com)
 - [Pond5](https://www.pond5.com)
 - [PIXTA](https://www.pixtastock.com)
+- [Unsplash](https://unsplash.com)
 - [IKEA](https://www.ikea.com)
 - [eSearch plus](https://euipo.europa.eu/eSearch/)
 - [TMview](https://www.tmdn.org/tmview/beta/#/tmview)
