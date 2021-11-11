@@ -39,5 +39,7 @@ The extension sends the image you select during a search to the requested third-
 - [SauceNAO](https://saucenao.com)
 - [IQDB](https://iqdb.org)
 - [Ascii2d](https://ascii2d.net)
+- [SHEIN](https://www.shein.com)
+- [LykDat](https://lykdat.com)
 
 The project is not affiliated with the supported third-party services. Consult the privacy policies of the respective services to learn more about how your data is handled.
