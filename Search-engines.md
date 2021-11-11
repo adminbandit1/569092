@@ -39,3 +39,5 @@ Search by Image supports a diverse set of reverse image search engines, which ca
 - [SauceNAO](https://saucenao.com)
 - [IQDB](https://iqdb.org)
 - [Ascii2d](https://ascii2d.net)
+- [SHEIN](https://www.shein.com)
+- [LykDat](https://lykdat.com)
