@@ -2,7 +2,8 @@ The developer does not collect any personal data from this extension.
 
 The extension sends the image you select during a search to the requested third-party service. The following services are supported:
 
-- [Google Images](https://www.google.com/imghp)
+- [Google Images](https://images.google.com/)
+- [Google Lens](https://lens.google/)
 - [Bing Images](https://www.bing.com/images/)
 - [Yandex.Images](https://yandex.com/images/)
 - [Baidu Image Search](https://image.baidu.com)
