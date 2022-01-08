@@ -13,7 +13,7 @@ Git and Node.js with Chocolatey.
 
 ```shell
 choco install git -y --version 2.32.0.2
-choco install nodejs-lts -y --version 12.22.4
+choco install nodejs-lts -y --version 12.22.8
 ```
 
 Open the console as the current user, check the installed build dependencies.
