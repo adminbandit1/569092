@@ -12,8 +12,8 @@ Open the console as an administrator, install
 Git and Node.js with Chocolatey.
 
 ```shell
-choco install git -y --version 2.32.0.2
-choco install nodejs-lts -y --version 12.22.8
+choco install git -y --version 2.36.0
+choco install nodejs-lts -y --version 16.15.0
 ```
 
 Open the console as the current user, check the installed build dependencies.
@@ -36,7 +36,7 @@ git clone --depth 1 --branch v<version> https://github.com/dessant/search-by-ima
 cd search-by-image
 
 # install dependencies
-npm install
+npm install --legacy-peer-deps
 
 # build for Chrome
 npm run build:prod:zip:chrome
