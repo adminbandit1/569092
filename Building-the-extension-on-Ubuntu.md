@@ -10,7 +10,7 @@ Open the console, install Git and nvm.
 ```shell
 sudo apt-get update && sudo apt-get install -y build-essential git
 
-wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
+wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
 source ~/.bashrc
 ```
 
@@ -36,7 +36,7 @@ cd search-by-image
 nvm install
 
 # install dependencies
-npm install
+npm install --legacy-peer-deps
 
 # build for Chrome
 npm run build:prod:zip:chrome
