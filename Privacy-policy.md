@@ -1,6 +1,6 @@
 The developer does not collect any personal data from this extension.
 
-The extension sends the image you select during a search to the requested third-party service. The following services are supported:
+The extension sends the image you select during a search to the requested service. The following services are supported:
 
 - [Google Images](https://images.google.com/)
 - [Google Lens](https://lens.google/)
@@ -23,6 +23,7 @@ The extension sends the image you select during a search to the requested third-
 - [PIXTA](https://www.pixtastock.com)
 - [Unsplash](https://unsplash.com)
 - [IKEA](https://www.ikea.com)
+- [Wildberries](https://www.wildberries.ru)
 - [eSearch plus](https://euipo.europa.eu/eSearch/)
 - [TMview](https://www.tmdn.org/tmview/beta/#/tmview)
 - [Global Brand Database](https://www3.wipo.int/branddb/en/)
@@ -43,4 +44,4 @@ The extension sends the image you select during a search to the requested third-
 - [SHEIN](https://www.shein.com)
 - [LykDat](https://lykdat.com)
 
-The project is not affiliated with the supported third-party services. Consult the privacy policies of the respective services to learn more about how your data is handled.
+The project is not affiliated with the supported services. Consult the privacy policies of the respective services to learn more about how your data is handled.
