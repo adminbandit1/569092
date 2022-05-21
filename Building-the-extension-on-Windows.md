@@ -1,22 +1,23 @@
-This guide has been tested on Windows 10 Pro 64-bit, version 21H1,
+This guide has been tested on Windows 10 Pro 64-bit, version 21H2,
 with Command Prompt and PowerShell.
 
 ## Preparing the Environment
 
-The build dependencies can be installed with Chocolatey, follow
-[this](https://chocolatey.org/install) guide to set it up.
-Alternatively, download and install the listed dependencies
-from their official sources.
+The build dependencies can be installed with winget, follow
+[this](https://docs.microsoft.com/en-us/windows/package-manager/winget/)
+guide to set it up. Alternatively, download and install
+the listed dependencies from their official sources.
 
-Open the console as an administrator, install
-Git and Node.js with Chocolatey.
+Open the console as the current user, install
+Git and Node.js with winget.
 
 ```shell
-choco install git -y --version 2.36.0
-choco install nodejs-lts -y --version 16.15.0
+winget install -e -s winget --id Git.Git --version 2.36.1
+winget install -e -s winget --id OpenJS.NodeJS.LTS --version 16.15.0
 ```
 
-Open the console as the current user, check the installed build dependencies.
+Close and reopen the console as the current user,
+check the installed build dependencies.
 
 ```shell
 git --version && node --version
@@ -28,7 +29,7 @@ The build process consists of cloning the repository,
 installing the dependencies, and building the extension.
 
 Open the console as the current user,
-build the extension for the intended browsers.
+build the extension for the intended browser.
 
 ```shell
 # clone repository (replace <version>)
