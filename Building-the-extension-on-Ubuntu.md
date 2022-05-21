@@ -1,4 +1,4 @@
-This guide has been tested on Ubuntu 20.04, with Bash.
+This guide has been tested on Ubuntu 22.04, with Bash.
 
 ## Preparing the Environment
 
@@ -8,7 +8,7 @@ for building the extension.
 Open the console, install Git and nvm.
 
 ```shell
-sudo apt-get update && sudo apt-get install -y build-essential git
+sudo apt update && sudo apt install -y build-essential git
 
 wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
 source ~/.bashrc
