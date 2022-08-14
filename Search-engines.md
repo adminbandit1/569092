@@ -3,6 +3,7 @@ Search by Image supports a diverse set of reverse image search engines, which ca
 #### Search engines
 
 - [Google Images](https://images.google.com/)
+- [Google Lens](https://lens.google/)
 - [Bing Images](https://www.bing.com/images/)
 - [Yandex.Images](https://yandex.com/images/)
 - [Baidu Image Search](https://image.baidu.com)
